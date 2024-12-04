@@ -60,6 +60,9 @@ header{
     max-width: 1150px;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 .features-grid, .reviews-grid {
     display: grid;
@@ -78,16 +81,17 @@ header{
     font-weight: 700;
 }
 .feature-image {
-    max-height: auto;
-    max-width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    flex: 1;
+    min-width: 250px;
+    text-align: center; 
+    max-width: 100%; /* Ensures the image scales to fit */
+    height: auto; 
     
 }
 .home-type{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    flex: 1; /* Take up equal space */
+    min-width: 250px; /* Ensures content doesn't shrink too small */
+    padding: 10px;
 }
 .home-type h3{
     text-align: left;

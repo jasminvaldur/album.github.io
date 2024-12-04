@@ -78,7 +78,7 @@ header{
     font-weight: 700;
 }
 .feature-image {
-    max-height: 600px;
+    max-height: auto;
     max-width: 600px;
     display: block;
     margin-left: auto;
@@ -189,7 +189,6 @@ main {
     max-width: 1150px;
     margin: auto;
     display: flex;
-    object-fit: fill;
 
 }
 .image-section {

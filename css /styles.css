@@ -189,6 +189,8 @@ main {
     max-width: 1150px;
     margin: auto;
     display: flex;
+    object-fit: fill;
+
 }
 .image-section {
     flex: 1;
